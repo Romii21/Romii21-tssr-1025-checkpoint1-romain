@@ -15,7 +15,7 @@ Fin si
 
 ### Vérification de l'éxistance d'un compte avant de le créer :
 
-Pour chaque argment présenter
+Pour chaque argment présenter  
 Faire
 
 Si l'utilisateur existe
@@ -30,12 +30,12 @@ Sinon
    Si la création c'est bien passé
    Alors
 
-    * Afficher : L'utilsateur a été créé
+   * Afficher : L'utilsateur a été créé
 
    Sinon
 
-    * Afficher : Erreur de création
+   * Afficher : Erreur de création
 
-   Fin si
- Fin si
+   Fin si  
+ Fin si  
 Fin Pour
