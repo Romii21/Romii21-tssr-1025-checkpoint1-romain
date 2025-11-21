@@ -2,26 +2,40 @@
 
 ## Script de création de compte :
 
-Lancement du script avec des arguments :
 
-argument1=compte1  
-argument2=compte2  
-argument3=compte3  
-ect ...
+### Vérification de présence d'arguments :
 
-Vérification de présence d'arguments :
+Si le nombre d'argument est égal à 0.
+Alors
 
-  * Les arguments sont présents = Message de validation = Le script continue
-  * Les arguments ne sont pas présents = Message d'erreur = Le script s'arrete
+  * Afficher : Les arguments ne sont pas présents = Le script s'arrete
+  * Quitter le script
 
-Vérification de l'éxistannce d'un compte avant de le créer :
+Fin si
 
-  * Le compte à créer :
+### Vérification de l'éxistance d'un compte avant de le créer :
 
-    * Existe = message d'erreur = Le script continue
-    * N'existe pas = Le script continue
+Pour chaque argment présenter
+Faire
 
-Vérification de la création de compte :
+Si l'utilisateur existe
+Alors
 
-  * Le compte se crée = Message de validation = Le script continue
-  * Le compte ne se crée pas = Message d'erreur = Le script continue
+  * Afficher : L'utilisateur existe déja
+
+Sinon
+
+  * Créer l'utilisateur
+
+   Si la création c'est bien passé
+   Alors
+
+    * Afficher : L'utilsateur a été créé
+
+   Sinon
+
+    * Afficher : Erreur de création
+
+   Fin si
+ Fin si
+Fin Pour
